@@ -1,1 +1,21 @@
+Minidetector Fork
+=================
+
 This is a fork of http://code.google.com/p/minidetector/
+
+To build the package:
+---------------------
+
+python setup.py install
+
+To build the redistributable package: 
+-------------------------------------
+
+python setup.py sdist
+
+To install in your virtualenv:
+------------------------------
+
+pip install -e git+git://github.com/timlinux/minidetector.git#egg=Package
+
+Tim Sutton 2012
